@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Shinny GEORGE</title>
+    
+    <link rel="stylesheet" href="CSS.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-circle">
+            <img src="logo-fac.png" alt="Logo Université">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Présentation</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="https://www.linkedin.com/in/shinnygeorge/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div id="particles-js"></div>
+
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Shinny <br>GEORGE</h1>
+                
+                <h2>Recherche de stage de fin d'étude <br><span class="super-text">Master EEEA</span></h2>
+                
+                <p class="hero-desc">
+                    Étudiante en Master 2 Électronique, Énergie Électrique et Automatique, parcours Ingénierie des Systèmes Aéronautiques et Spatiaux. <br>
+                    <strong>Je recherche un stage technique de 6 mois dès février 2026</strong> <br>
+                    dans le domaine <span id="typewriter"></span><span class="cursor">|</span>
+                </p>
+
+                <a href="cv-shinny-george.pdf" download class="btn-cv">
+                    CV
+                </a>
+            </div>
+
+            <div class="hero-img-container">
+                <img src="photo-profil.jpg" alt="Shinny George" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-white">
+        <h2 class="section-title">Compétences Techniques</h2>
+        
+        <div class="skills-container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-target="domaines">
+                    <i class="fas fa-microchip"></i> Domaines Clés
+                </button>
+                <button class="tab-btn" data-target="prog">
+                    <i class="fas fa-code"></i> Programmation
+                </button>
+                <button class="tab-btn" data-target="outils">
+                    <i class="fas fa-tools"></i> Logiciels & Outils
+                </button>
+                <button class="tab-btn" data-target="langues">
+                    <i class="fas fa-language"></i> Langues
+                </button>
+            </div>
+
+            <div class="tabs-body">
+                
+                <div class="tab-content active" id="domaines">
+                    <h3>Domaines d'expertise</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Systèmes Embarqués</span>
+                        <span class="tag">Électronique de Puissance</span>
+                        <span class="tag">Automatisme</span>
+                        <span class="tag">Traitement du Signal</span>
+                        <span class="tag">Informatique Industrielle</span>
+                        <span class="tag">Asservissement</span>
+                        <span class="tag">Programmation Orientée Objet</span>
+                        <span class="tag">Architecture des Systèmes</span>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="prog">
+                    <h3>Langages Maîtrisés</h3>
+                    <div class="skill-tags">
+                        <span class="tag">C</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">VHDL</span>
+                        <span class="tag">RTL</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="outils">
+                    <h3>Environnement Technique</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Orcad</span>
+                        <span class="tag">PSpice</span>
+                        <span class="tag">Quartus</span>
+                        <span class="tag">ModelSim</span>
+                        <span class="tag">SolidWorks</span>
+                        <span class="tag">Windows</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">Pack Office</span>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="langues">
+                    <h3>Langues Parlées</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Français (Natif)</span>
+                        <span class="tag">Anglais (B2)</span>
+                        <span class="tag">Allemand (A2)</span>
+                        <span class="tag">Tamoul (Bilingue)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="parcours" class="section-blue">
+        <h2 class="section-title">Mon Parcours</h2>
+        
+        <div class="resume-container">
+            
+            <div class="resume-column">
+                <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Formation</h3>
+                
+                <div class="resume-item">
+                    <div class="resume-date">2026 (En cours)</div>
+                    <h4 class="resume-job">Master 2 EEEA - ISAS</h4>
+                    <p class="resume-place">Université Paris-Saclay</p>
+                    <p>Ingénierie des Systèmes Aéronautiques et Spatiaux.</p>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date">2025</div>
+                    <h4 class="resume-job">Master 1 EEEA</h4>
+                    <p class="resume-place">Université Paris-Saclay</p>
+                    <p>Option Aéronautique. Électronique et Automatique.</p>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date">2025</div>
+                    <h4 class="resume-job">Brevet d'Initiation Aéronautique</h4>
+                    <p class="resume-place">Certification Nationale</p>
+                    <p>Mécanique du vol, météorologie, navigation.</p>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date">2024</div>
+                    <h4 class="resume-job">Licence Sciences de l'Ingénieur</h4>
+                    <p class="resume-place">Université Paris-Saclay</p>
+                    <p>Parcours Électronique, Automatique et Traitement de l'Information.</p>
+                </div>
+                 
+                <div class="resume-item">
+                    <div class="resume-date">2021</div>
+                    <h4 class="resume-job">Baccalauréat Général</h4>
+                    <p class="resume-place">Lycée Edouard Branly - 94000</p>
+                    <p>Spécialités Sciences de l'Ingénieur et Mathématiques.</p>
+                </div>
+            </div>
+
+            <div class="resume-column">
+                <h3 class="column-title"><i class="fas fa-briefcase"></i> Expérience Pro</h3>
+                
+                <div class="resume-item empty-state">
+                    <div class="resume-date">Fév 2026</div>
+                    <h4 class="resume-job">Stage de fin d'études</h4>
+                    <p class="resume-place">À venir...</p>
+                    <p>Recherche active dans l'embarqué/aérospatial.</p>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date current">Depuis 2023</div>
+                    <h4 class="resume-job">Vacataire Médiathèque</h4>
+                    <p class="resume-place">Médiathèque B. Ywanne - 94380</p>
+                    <p>Gestion, accueil et conseil durant les week-ends (Job étudiant).</p>
+                    <span class="soft-skill-badge">Contact client</span>
+                    <span class="soft-skill-badge">Organisation</span>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date current">Depuis 2022</div>
+                    <h4 class="resume-job">Serveuse / Barmaid</h4>
+                    <p class="resume-place">LEON - 75014 Paris</p>
+                    <p>Service en salle et bar durant les vacances d'été.</p>
+                    <span class="soft-skill-badge">Travail d'équipe</span>
+                    <span class="soft-skill-badge">Gestion du stress</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projets" class="section-white">
+        <h2 class="section-title">Projets Académiques</h2>
+        <div class="projects-grid">
+            
+            <a href="projet-commande-gestuelle.html" class="project-card">
+                <span class="project-year">En cours</span>
+                <h3 class="project-title">Commande gestuelle de Drone</h3>
+                <p>Interface de commande pour minidrone Parrot via MATLAB. Pilotage par reconnaissance de gestes.</p>
+                <div class="see-more">Voir les détails <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+            <a href="projet-plateforme-pedagogique.html" class="project-card">
+                <span class="project-year">2025</span>
+                <h3 class="project-title">Plateformes Pédagogiques</h3>
+                <p>Systèmes de contrôle avec D2C et Control'X. Simulation et mise en œuvre réelle.</p>
+                <div class="see-more">Voir les détails <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+            <a href="projet-robot-suiveur.html" class="project-card">
+                <span class="project-year">2024</span>
+                <h3 class="project-title">Robot Suiveur de Ligne</h3>
+                <p>Robot autonome avec détection d'obstacles et catapulte. Programmation embarquée.</p>
+                <div class="see-more">Voir les détails <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+            <a href="projet-technologie-web.html" class="project-card">
+                <span class="project-year">2022</span>
+                <h3 class="project-title">Développement Web</h3>
+                <p>Site web complet développé en HTML, CSS et JavaScript.</p>
+                <div class="see-more">Voir les détails <i class="fas fa-arrow-right"></i></div>
+            </a>
+
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <h2>Me Contacter</h2>
+        <p style="margin-bottom: 30px; color: #ccc;">Ouvert aux opportunités de stage dès Février 2026.</p>
+        <div class="contact-info">
+            <a href="mailto:georgeshinny@gmail.com"><i class="fas fa-envelope"></i> georgeshinny@gmail.com</a>
+            <span style="margin: 0 10px;">|</span>
+            <a href="tel:+33614854743"><i class="fas fa-phone"></i> 06 14 85 47 43</a>
+        </div>
+        <div class="social-links">
+    <a href="https://www.linkedin.com/in/shinnygeorge/" target="_blank" style="font-size: 2.5rem;">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="Portfolio.html">
+        <div class="logo-circle">
+            <img src="logo-fac.png" alt="Logo Université"> 
+        </div>
+    </a>
+</div>
+        <p style="margin-top: 30px; font-size: 0.8rem; color: #555;">© 2025 Shinny George - Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="Javascript.js"></script>
+
+    <div id="modal-drone" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-drone')">&times;</span>
+            <h2>Commande de Drone par Gestes</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Conception d'une interface de commande pour un minidrone Parrot via MATLAB. L'objectif est de piloter le drone sans manette, uniquement par reconnaissance de mouvements de la main.</p>
+                <h3><i class="fas fa-microchip"></i> Technique</h3>
+                <ul>
+                    <li>Acquisition vidéo et traitement d'image (Tracking de la main).</li>
+                    <li>Interprétation des gestes (Haut, Bas, Rotation) en commandes de vol.</li>
+                    <li>Communication Bluetooth en temps réel.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-plateforme" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-plateforme')">&times;</span>
+            <h2>Plateformes Pédagogiques Automatisées</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Essai, test et développement de systèmes de contrôle sur des bancs d'essais didactiques (D2C et Control'X). Le but est de lier la simulation théorique à la mise en œuvre réelle.</p>
+                <h3><i class="fas fa-microchip"></i> Technique</h3>
+                <ul>
+                    <li><strong>Plateforme D2C :</strong> Stabilisation d'un système instable (balancier).</li>
+                    <li><strong>Control'X :</strong> Pilotage d'axe linéaire industriel.</li>
+                    <li>Conception de TP et validation des modèles Simulink.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-robot" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-robot')">&times;</span>
+            <h2>Robot Autonome Suiveur de Ligne</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Robot suiveur de ligne avec un parcours complexe : tunnel sans ligne, récupération de trajectoire, et tir de précision.</p>
+                <h3><i class="fas fa-microchip"></i> Défis relevés</h3>
+                <ul>
+                    <li><strong>Navigation :</strong> Suivi de ligne (IR) et traversée de tunnel "aveugle".</li>
+                    <li><strong>Obstacles :</strong> Algorithme d'évitement (droite/gauche) via Ultrasons.</li>
+                    <li><strong>Actionneurs :</strong> Détection de couleur, montée de pente et <strong>Catapulte</strong> pour envoyer une balle dans un panier.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-web" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-web')">&times;</span>
+            <h2>Site Web Interactif : Jojo's Bizarre Adventure</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Création d'un site web dynamique dédié à l'univers du manga Jojo's Bizarre Adventure, utilisant HTML, CSS, PHP et JavaScript.</p>
+                <h3><i class="fas fa-microchip"></i> Fonctionnalités</h3>
+                <ul>
+                    <li><strong>Onglets :</strong> Navigation fluide entre les personnages et l'histoire.</li>
+                    <li><strong>Pop-ups Interactives :</strong> Système de boutons affichant les synopsis des 6 parties de l'anime.</li>
+                    <li><strong>Section Bonus :</strong> Anecdotes méconnues sur le créateur Hirohiko Araki.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="modal-drone" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-drone')">&times;</span>
+            <h2>Commande de Drone par Gestes</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Conception d'une interface de commande gestuelle pour un minidrone Parrot, intégrée dans l'environnement MATLAB[cite: 1303]. L'objectif est de piloter le drone sans manette physique.</p>
+                <h3><i class="fas fa-microchip"></i> Technique</h3>
+                <ul>
+                    <li><strong>Vision :</strong> Acquisition vidéo et traitement d'image pour le tracking de la main.</li>
+                    <li><strong>Commandes :</strong> Interprétation des gestes (Haut, Bas, Rotation) en instructions de vol.</li>
+                    <li><strong>Liaison :</strong> Communication Bluetooth en temps réel.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-plateforme" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-plateforme')">&times;</span>
+            <h2>Plateformes Pédagogiques Automatisées</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Projet</h3>
+                <p>Développement de bancs d'essais didactiques pour faire le lien entre simulation théorique et systèmes réels[cite: 1307]. Utilisation des systèmes D2C et Control'X.</p>
+                <h3><i class="fas fa-tasks"></i> Réalisations</h3>
+                <ul>
+                    <li><strong>Plateforme D2C (Drone) :</strong> Stabilisation d'un système instable (balancier) via correcteurs PID[cite: 145].</li>
+                    <li><strong>Plateforme Control'X :</strong> Pilotage d'un axe linéaire industriel (Schneider) pour simuler une chaîne de production[cite: 138, 145].</li>
+                    <li><strong>Livrables :</strong> Conception de TP, validation des modèles Simulink et rédaction de manuels.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-robot" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-robot')">&times;</span>
+            <h2>Robot Autonome de Compétition</h2>
+            <div class="modal-body">
+                <h3><i class="fas fa-bullseye"></i> Le Défi</h3>
+                <p>Robot autonome devant valider un parcours complexe en temps limité : suivi de ligne, tunnel, et tir de précision[cite: 77, 85].</p>
+                <h3><i class="fas fa-cogs"></i> Parcours & Algorithmes</h3>
+                <ul>
+                    <li><strong>Navigation :</strong> Suivi de ligne (IR) et traversée de tunnel "aveugle" via capteurs ultrasons[cite: 78].</li>
+                    <li><strong>Obstacles :</strong> Algorithme d'évitement dynamique (gauche/droite) avec récupération de trajectoire[cite: 79].</li>
+                    <li><strong>Actions :</strong> Montée de pente, détection de couleur et <strong>tir catapulte</strong> dans un panier final[cite: 85].</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-web" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-web')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Projet Web Fullstack : Architecture & Interactivité</h2>
+                <span class="modal-tag">HTML • CSS • PHP • JS</span>
+            </div>
+
+            <div class="modal-body-grid">
+                <div class="modal-visual">
+                    <img src="site-jojo.jpg" alt="Interface du site web" class="modal-img-real" onerror="this.style.display='none';">
+                    <div class="img-placeholder" style="background: linear-gradient(135deg, #6b21a8, #d946ef); color: white;">
+                        <i class="fas fa-code" style="font-size: 4rem;"></i>
+                    </div>
+                </div>
+
+                <div class="modal-desc">
+                    <h3><i class="fas fa-bullseye"></i> Objectif Technique</h3>
+                    <p>Développement intégral d'une application web dynamique sans l'utilisation de frameworks (Vanilla JS/CSS). L'objectif était de maîtriser les interactions natives <strong>Front-end</strong> et la structuration <strong>Back-end</strong> (PHP).</p>
+                    <p>Le thème (<em>Jojo's Bizarre Adventure</em>) a servi de support pour créer une architecture de contenu complexe.</p>
+
+                    <h3><i class="fas fa-cogs"></i> Implémentation</h3>
+                    <ul class="tech-list">
+                        <li><strong>Navigation SPA (Single Page Application) :</strong> Conception d'un système d'onglets en JavaScript pour basculer instantanément entre les vues (Personnages / Synopsis / Anecdotes) sans rechargement de page.</li>
+                        <li><strong>Manipulation du DOM :</strong> Création de fenêtres modales (Pop-ups) déclenchées par des événements <code>onclick</code> pour afficher les détails des 6 arcs narratifs.</li>
+                        <li><strong>Structuration des Données :</strong> Gestion de fiches techniques pour les personnages principaux et intégration d'une section "Secrets de conception" sur l'auteur.</li>
+                    </ul>
+                    
+                    <div class="modal-actions">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

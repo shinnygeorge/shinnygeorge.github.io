@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Robot Autonome - Shinny GEORGE</title>
+    
+    <link rel="stylesheet" href="CSS.css"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* --- Styles spécifiques Page Robot (Thème Orange) --- */
+        body {
+            background-color: white;
+            padding-top: 100px;
+        }
+
+        .project-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .project-header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 30px;
+        }
+
+        .project-header h1 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .tags-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        /* Tag Orange pour la robotique */
+        .tech-tag {
+            background-color: #fff7ed;
+            color: #c2410c; /* Orange foncé */
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid #ffedd5;
+        }
+
+        .content-section { margin-bottom: 60px; }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            color: #c2410c; /* Titres en Orange */
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* Grille des défis techniques */
+        .challenges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .challenge-card {
+            background: white;
+            border: 1px solid #fed7aa;
+            border-radius: 10px;
+            padding: 25px;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .challenge-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(194, 65, 12, 0.1);
+        }
+
+        .challenge-card h3 { color: #9a3412; margin-bottom: 10px; font-size: 1.2rem; }
+        
+        .challenge-icon {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            font-size: 4rem;
+            color: #ffedd5;
+            opacity: 0.5;
+            z-index: 0;
+        }
+
+        .challenge-content { position: relative; z-index: 1; }
+
+        /* Liste des composants */
+        .specs-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .specs-list li {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #c2410c;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #64748b;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .back-link:hover { color: #c2410c; transform: translateX(-5px); }
+
+        @media (max-width: 768px) {
+            nav ul { display: none; }
+            .project-header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background:white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: fixed; width: 100%; top: 0; z-index: 1000;">
+        <div class="logo-circle">
+            <img src="logo-fac.png" alt="Logo Université">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Portfolio.html#hero">Présentation</a></li>
+                <li><a href="Portfolio.html#skills">Compétences</a></li>
+                <li><a href="Portfolio.html#parcours">Parcours</a></li>
+                <li><a href="Portfolio.html#projets">Projets</a></li>
+                <li><a href="Portfolio.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons" style="color:#1a1a1a;">
+            <a href="https://www.linkedin.com/in/shinnygeorge/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+
+    <main class="project-container">
+        
+        <a href="Portfolio.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Retour à l'accueil
+        </a>
+
+        <section class="project-header">
+            <h1>Robot Autonome Suiveur de Ligne</h1>
+            <div class="tags-container">
+                <span class="tech-tag"><i class="fas fa-robot"></i> Robotique Mobile</span>
+                <span class="tech-tag"><i class="fas fa-code"></i> Programmation C/C++</span>
+                <span class="tech-tag"><i class="fas fa-microchip"></i> Arduino / Microcontrôleur</span>
+                <span class="tech-tag"><i class="fas fa-cogs"></i> Mécatronique</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2><i class="fas fa-flag-checkered"></i> Le Défi Technique</h2>
+            <p>
+                L'objectif de ce projet était de concevoir et programmer un robot entièrement autonome capable de valider un parcours complexe sans aucune intervention humaine. Ce projet transversal a mobilisé des compétences en électronique (gestion des capteurs), en mécanique (conception catapulte) et en informatique embarquée.
+            </p>
+            <p>
+                Le robot devait non seulement suivre une ligne noire, mais surtout s'adapter intelligemment à des ruptures de parcours et interagir avec son environnement (obstacles, paniers).
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2><i class="fas fa-server"></i> Architecture Système</h2>
+            <p>Le robot prend ses décisions grâce à une boucle de contrôle rapide (Machine à États) qui analyse les capteurs en temps réel pour piloter les moteurs DC.</p>
+            
+            <ul class="specs-list">
+                <li><i class="fas fa-eye"></i> Capteurs Infrarouges (Suivi de ligne)</li>
+                <li><i class="fas fa-wifi"></i> Capteurs Ultrasons (Obstacles)</li>
+                <li><i class="fas fa-palette"></i> Capteur de Couleur (Arrêt final)</li>
+                <li><i class="fas fa-basketball-ball"></i> Servomoteur (Catapulte)</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2><i class="fas fa-code-branch"></i> Algorithmes & Solutions</h2>
+            <div class="challenges-grid">
+                
+                <div class="challenge-card">
+                    <i class="fas fa-dungeon challenge-icon"></i>
+                    <div class="challenge-content">
+                        <h3>1. Le Tunnel "Aveugle"</h3>
+                        <p><strong>Problème :</strong> La ligne disparait totalement dans le tunnel.<br>
+                        <strong>Solution :</strong> Implémentation d'un "Mode Mémoire". Le robot mémorise la dernière direction connue avant la perte du signal et bascule en navigation inertielle (avance tout droit) jusqu'à retrouver la ligne en sortie.</p>
+                    </div>
+                </div>
+
+                <div class="challenge-card">
+                    <i class="fas fa-cube challenge-icon"></i>
+                    <div class="challenge-content">
+                        <h3>2. Évitement Dynamique</h3>
+                        <p><strong>Problème :</strong> Deux obstacles bloquent la route (un à gauche, un à droite).<br>
+                        <strong>Solution :</strong> Algorithme de contournement prioritaire. Dès détection par ultrasons, le robot interrompt le suivi de ligne, exécute une trajectoire en arc de cercle prédéfinie, puis scanne pour "raccrocher" la ligne.</p>
+                    </div>
+                </div>
+
+                <div class="challenge-card">
+                    <i class="fas fa-mountain challenge-icon"></i>
+                    <div class="challenge-content">
+                        <h3>3. Montée & Détection</h3>
+                        <p><strong>Problème :</strong> Gravité dans la pente et arrêt précis.<br>
+                        <strong>Solution :</strong> Asservissement moteur pour maintenir la puissance dans la montée. Utilisation d'un capteur colorimétrique pour détecter la zone de "Demi-tour" au sommet et redescendre sans quitter la piste.</p>
+                    </div>
+                </div>
+
+                <div class="challenge-card">
+                    <i class="fas fa-basketball-ball challenge-icon"></i>
+                    <div class="challenge-content">
+                        <h3>4. Tir de Précision</h3>
+                        <p><strong>Problème :</strong> Lancer une balle dans un panier final.<br>
+                        <strong>Solution :</strong> Conception d'une catapulte compacte actionnée par servomoteur. Le déclenchement se fait automatiquement dès la détection de la ligne d'arrivée (Zone Fin).</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="text-align: center; padding: 40px; color: #888; border-top: 1px solid #eee;">
+        <p>© 2026 Shinny George - Projet Académique Licence 3</p>
+    </footer>
+
+</body>
+</html>
